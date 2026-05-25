@@ -118,3 +118,26 @@ button {
     border: 0px;
     border-radius: 10px;
 }
+
+
+#avanc-btn,
+#ret-btn{
+    position :absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    background:rgba(red, green, blue, alpha);
+    z-index: 10;
+}
+
+#avanc-btn {
+    right: 10px;
+}
+#ret-btn {
+    left: 10px;
+}
